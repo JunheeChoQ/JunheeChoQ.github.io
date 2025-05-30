@@ -30,3 +30,4 @@ The largest dataset of 4000 samples was used to train Faster R-CNN and RetinaNet
 
 To compare model performance, a bar graph of mAP accuracy for Faster R-CNN and RetinaNet across training dataset sizes of 500, 1000, 2000, and 4000 samples is presented in Figure 4. Both models exhibit increasing accuracy with larger datasets; however, at 4000 samples, Faster R-CNN achieves a significantly higher mAP of 96.81%, while RetinaNet reaches 54.42%. This substantial gap is attributed to Faster R-CNN's two-stage architecture, which enhances feature extraction and region proposal accuracy, making it more effective at handling complex ion patterns in larger datasets compared to RetinaNet's single-stage approach.
 ![FIG. 4. Bar graph comparing the accuracy of Faster R-CNN and RetinaNet across training dataset sizes of 500, 1000, 2000, and 4000 samples](./Figure4.png)
+
