@@ -31,3 +31,9 @@ The largest dataset of 4000 samples was used to train Faster R-CNN and RetinaNet
 To compare model performance, a bar graph of mAP accuracy for Faster R-CNN and RetinaNet across training dataset sizes of 500, 1000, 2000, and 4000 samples is presented in Figure 4. Both models exhibit increasing accuracy with larger datasets; however, at 4000 samples, Faster R-CNN achieves a significantly higher mAP of 96.81%, while RetinaNet reaches 54.42%. This substantial gap is attributed to Faster R-CNN's two-stage architecture, which enhances feature extraction and region proposal accuracy, making it more effective at handling complex ion patterns in larger datasets compared to RetinaNet's single-stage approach.
 ![FIG. 4. Bar graph comparing the accuracy of Faster R-CNN and RetinaNet across training dataset sizes of 500, 1000, 2000, and 4000 samples](./Figure4.png)
 
+## References
+[1] Yin, Yanning, and Stefan Willitsch. "Ion counting and temperature determination of Coulomb-crystallized laser-cooled ions in traps using convolutional neural networks." arXiv preprint arXiv:2502.18442 (2025).
+
+[2] Ren, Shaoqing, et al. "Faster r-cnn: Towards real-time object detection with region proposal networks." Advances in neural information processing systems 28 (2015).
+
+[3] Lin, Tsung-Yi, et al. "Focal loss for dense object detection." Proceedings of the IEEE international conference on computer vision. 2017.
